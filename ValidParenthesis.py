@@ -1,7 +1,6 @@
 def isValid(s: str) -> bool:
     grid = []
     i = 0
-    j = 0 
     counter = 0
     while i < len(s):
         if s[i] == "(" or s[i] == "[" or s[i] == "{":
