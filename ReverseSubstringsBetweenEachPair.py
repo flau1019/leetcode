@@ -1,3 +1,5 @@
+# SEE: https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/
+
 def reverseParentheses(s):
     while s.count(")") > 0:
         position = 0
